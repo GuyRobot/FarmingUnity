@@ -7,10 +7,9 @@ public class PlotManager : MonoBehaviour
 	bool isPlanted = false;
 	SpriteRenderer plant;
 	BoxCollider2D plantCollider;
-	public Sprite[] plantStages;
+	public GamePlant gamePlant;
 
 	int plantStage = 0;
-	float timeGrowth = 2f;
 	float timer = 0;
 	// Start is called before the first frame update
 	void Start()
@@ -25,9 +24,9 @@ public class PlotManager : MonoBehaviour
 		if (isPlanted)
 		{
 			timer -= Time.deltaTime;
-			if (timer < 0 && plantStage < plantStages.Length - 1)
+			if (timer < 0 && plantStage < gamePlant.plantStages.Length - 1)
 			{
-				timer = timeGrowth;
+				timer = gamePlant.timeGrowth;
 				plantStage++;
 				UpdateStage();
 			}
@@ -38,7 +37,7 @@ public class PlotManager : MonoBehaviour
 	{
 		if (isPlanted)
 		{
-			if (plantStage == plantStages.Length - 1)
+			if (plantStage == gamePlant.plantStages.Length - 1)
 			{
 				Harvest();
 			}
@@ -62,14 +61,14 @@ public class PlotManager : MonoBehaviour
 	{
 		Debug.Log("Plant");
 		isPlanted = true;
-		timer = timeGrowth;
+		timer = gamePlant.timeGrowth;
 		UpdateStage();
 		plant.gameObject.SetActive(true);
 	}
 
 	void UpdateStage()
 	{
-		plant.sprite = plantStages[plantStage];
+		plant.sprite = gamePlant.plantStages[plantStage];
 		plantCollider.size = plant.sprite.bounds.size;
 		plantCollider.offset = new Vector2(0, plant.sprite.bounds.size.y / 2);
 	}

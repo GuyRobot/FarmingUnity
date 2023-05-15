@@ -144,11 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1bdd58be0cef0e45a243eefd3ff6dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plantStages:
-  - {fileID: -1661500599, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
-  - {fileID: -1998934123, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
-  - {fileID: -1509231907, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
-  - {fileID: -2012310718, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
+  gamePlant: {fileID: 11400000, guid: b7ce603a85162a7429a8c79375b90ce7, type: 2}
 --- !u!50 &3214192012383182006
 Rigidbody2D:
   serializedVersion: 4
