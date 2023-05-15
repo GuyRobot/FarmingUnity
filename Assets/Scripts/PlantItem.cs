@@ -10,16 +10,21 @@ public class PlantItem : MonoBehaviour
     public TextMeshProUGUI nameTxt;
     public TextMeshProUGUI priceTxt;
     public Image icon;
+
+    FarmManager farmManager;
     // Start is called before the first frame update
     void Start()
     {
         nameTxt.text = plant.plantName;
         priceTxt.text = string.Format("{0:C0}", plant.price);
         icon.sprite = plant.icon;
+
+        farmManager = FindAnyObjectByType<FarmManager>();
     }
 
     public void BuyPlant()
     {
         Debug.Log("Buy");
+        farmManager.SelectPlant(this);
     }
 }

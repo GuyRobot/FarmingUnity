@@ -7,15 +7,20 @@ public class PlotManager : MonoBehaviour
 	bool isPlanted = false;
 	SpriteRenderer plant;
 	BoxCollider2D plantCollider;
-	public GamePlant gamePlant;
+	GamePlant gamePlant;
 
 	int plantStage = 0;
 	float timer = 0;
+
+	// Farm manager for plating plant
+	FarmManager farmManager;
 	// Start is called before the first frame update
 	void Start()
 	{
 		plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
 		plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
+
+		farmManager = FindAnyObjectByType<FarmManager>();
 	}
 
 	// Update is called once per frame
@@ -42,9 +47,9 @@ public class PlotManager : MonoBehaviour
 				Harvest();
 			}
 		}
-		else
+		else if (farmManager.isPlanting)
 		{
-			Plant();
+			Plant(farmManager.selectedPlant.plant);
 		}
 	}
 
@@ -57,8 +62,9 @@ public class PlotManager : MonoBehaviour
 		plant.gameObject.SetActive(false);
 	}
 
-	void Plant()
+	void Plant(GamePlant gamePlant)
 	{
+		this.gamePlant = gamePlant;
 		Debug.Log("Plant");
 		isPlanted = true;
 		timer = gamePlant.timeGrowth;
