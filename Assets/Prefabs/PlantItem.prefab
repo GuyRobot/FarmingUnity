@@ -192,6 +192,7 @@ MonoBehaviour:
   nameTxt: {fileID: 2522685675235626336}
   priceTxt: {fileID: 5742439758458320354}
   icon: {fileID: 1997052104236115542}
+  buyButton: {fileID: 6226618344862942221}
 --- !u!1 &4513002034408907182
 GameObject:
   m_ObjectHideFlags: 0

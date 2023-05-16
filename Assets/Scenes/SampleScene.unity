@@ -134,6 +134,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plot
       objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -200,6 +216,22 @@ PrefabInstance:
     - target: {fileID: 3214192012383182001, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_Name
       value: Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
@@ -817,6 +849,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plot
       objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1063,6 +1111,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343151950 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6226618344862942221, guid: 30e1f1312996984489076d44793edb1a, type: 3}
+  m_PrefabInstance: {fileID: 505034327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1372987092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1073,6 +1132,22 @@ PrefabInstance:
     - target: {fileID: 3214192012383182001, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_Name
       value: Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
@@ -1421,7 +1496,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storeTitleTxt: {fileID: 657646414}
   storeMoneyTxt: {fileID: 1520436530}
+  buyButton: {fileID: 1343151950}
   storeTitle: Plant Store
+  buyActiveColor: {r: 0, g: 1, b: 0, a: 1}
+  buyInactiveColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &1518159478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1432,6 +1510,22 @@ PrefabInstance:
     - target: {fileID: 3214192012383182001, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_Name
       value: Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
@@ -1630,6 +1724,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plot
       objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1691,6 +1801,22 @@ PrefabInstance:
     - target: {fileID: 3214192012383182001, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_Name
       value: Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
@@ -1754,6 +1880,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plot
       objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1815,6 +1957,22 @@ PrefabInstance:
     - target: {fileID: 3214192012383182001, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_Name
       value: Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: plantableColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214192012383182002, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
+      propertyPath: unPlantableColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
       propertyPath: m_RootOrder

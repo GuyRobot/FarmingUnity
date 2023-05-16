@@ -12,6 +12,11 @@ public class FarmManager : MonoBehaviour
 	[HideInInspector]
 	public PlantItem selectedPlant;
 
+	public Color buyActiveColor = Color.green;
+	public Color buyInactiveColor = Color.red;
+	public string buyActiveText = "Buy";
+	public string buyInactiveText = "Cancel";
+
 	private UIManager uIManager;
 	// Start is called before the first frame update
 	void Start()
@@ -24,13 +29,20 @@ public class FarmManager : MonoBehaviour
 	{
 		if (selectedPlant == plant)
 		{
+			selectedPlant.Deactivate();
 			selectedPlant = null;
 			isPlanting = false;
 		}
 		else
 		{
+			if (selectedPlant != null)
+			{
+				selectedPlant.Deactivate();
+			}
 			selectedPlant = plant;
 			isPlanting = true;
+
+			selectedPlant.Activate();
 		}
 	}
 

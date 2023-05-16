@@ -6,6 +6,7 @@ public class PlotManager : MonoBehaviour
 {
 	bool isPlanted = false;
 	SpriteRenderer plant;
+	SpriteRenderer plot;
 	BoxCollider2D plantCollider;
 	GamePlant gamePlant;
 
@@ -14,10 +15,15 @@ public class PlotManager : MonoBehaviour
 
 	// Farm manager for plating plant
 	FarmManager farmManager;
+
+	// State color indicate can plant or not
+    public Color plantableColor = Color.green;
+    public Color unPlantableColor = Color.red;
 	// Start is called before the first frame update
 	void Start()
 	{
 		plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
+		plot = GetComponent<SpriteRenderer>();
 		plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
 
 		farmManager = FindAnyObjectByType<FarmManager>();
@@ -51,6 +57,25 @@ public class PlotManager : MonoBehaviour
 		{
 			Plant(farmManager.selectedPlant.plant);
 		}
+	}
+
+	private void OnMouseOver()
+	{
+		if (!farmManager.isPlanting) return;
+		if (farmManager.money >= farmManager.selectedPlant.plant.buyPrice && !isPlanted)
+		{
+			plot.color = plantableColor;
+		}
+		else
+		{
+			plot.color = unPlantableColor;
+		}
+	}
+
+	private void OnMouseExit()
+	{
+		if (!farmManager.isPlanting) return;
+		plot.color = Color.white;
 	}
 
 	void Harvest()
