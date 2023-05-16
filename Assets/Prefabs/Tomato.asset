@@ -19,5 +19,6 @@ MonoBehaviour:
   - {fileID: -161664076, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
   timeGrowth: 10
   plantName: Tomato
-  price: 30
+  buyPrice: 40
+  sellPrice: 100
   icon: {fileID: 53534356, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}

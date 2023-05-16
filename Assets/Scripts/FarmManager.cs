@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class FarmManager : MonoBehaviour
 {
+	public int money = 100;
 	// Whether is plating plant or not - set when user buy plant for planting
 	[HideInInspector]
 	public bool isPlanting = false;
 	// The plant item the user had bought for planting
 	[HideInInspector]
 	public PlantItem selectedPlant;
+
+	private UIManager uIManager;
 	// Start is called before the first frame update
 	void Start()
 	{
-
+		uIManager = FindAnyObjectByType<UIManager>();
 	}
 
 	// Update is called once per frame
@@ -29,5 +32,13 @@ public class FarmManager : MonoBehaviour
 			selectedPlant = plant;
 			isPlanting = true;
 		}
+	}
+
+	public bool Transact(int amount)
+	{
+		if (money + amount < 0) return false;
+		money += amount;
+		uIManager.UpdateUI();
+		return true;
 	}
 }

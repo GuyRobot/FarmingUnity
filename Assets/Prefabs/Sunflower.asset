@@ -19,5 +19,6 @@ MonoBehaviour:
   - {fileID: -1001926577, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
   timeGrowth: 5
   plantName: Sunflower
-  price: 20
+  buyPrice: 20
+  sellPrice: 50
   icon: {fileID: 993564359, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}

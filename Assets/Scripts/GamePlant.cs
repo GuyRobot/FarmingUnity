@@ -8,6 +8,7 @@ public class GamePlant : ScriptableObject
 	public Sprite[] plantStages;
 	public float timeGrowth;
 	public string plantName;
-	public int price;
+	public int buyPrice;
+	public int sellPrice;
 	public Sprite icon;
 }

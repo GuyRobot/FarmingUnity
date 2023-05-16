@@ -19,5 +19,6 @@ MonoBehaviour:
   - {fileID: -2012310718, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}
   timeGrowth: 2
   plantName: Corn
-  price: 10
+  buyPrice: 10
+  sellPrice: 20
   icon: {fileID: 906250179, guid: 447603116fcf28e4f849898d6d18b9e2, type: 3}

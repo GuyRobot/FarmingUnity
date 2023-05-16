@@ -16,7 +16,7 @@ public class PlantItem : MonoBehaviour
     void Start()
     {
         nameTxt.text = plant.plantName;
-        priceTxt.text = string.Format("{0:C0}", plant.price);
+        priceTxt.text = string.Format("{0:C0}", plant.buyPrice);
         icon.sprite = plant.icon;
 
         farmManager = FindAnyObjectByType<FarmManager>();

@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 657646415}
   - component: {fileID: 657646414}
   m_Layer: 5
-  m_Name: Money
+  m_Name: StoreTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -977,6 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba528b47afffb04d893a1b82ec59555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  money: 120
   isPlanting: 0
   selectedPlant: {fileID: 0}
 --- !u!1839735485 &943062772
@@ -1314,6 +1315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1505423440}
   - component: {fileID: 1505423439}
+  - component: {fileID: 1505423441}
   - component: {fileID: 1505423438}
   - component: {fileID: 1505423437}
   m_Layer: 5
@@ -1405,6 +1407,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1505423441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505423436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0ce9a2c6f523b458fa30e61db996a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storeTitleTxt: {fileID: 657646414}
+  storeMoneyTxt: {fileID: 1520436530}
+  storeTitle: Plant Store
 --- !u!1001 &1518159478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1479,7 +1496,7 @@ GameObject:
   - component: {fileID: 1520436531}
   - component: {fileID: 1520436530}
   m_Layer: 5
-  m_Name: StoreTitle
+  m_Name: StoreMoney
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

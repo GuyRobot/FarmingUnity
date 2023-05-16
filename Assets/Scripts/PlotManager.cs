@@ -56,6 +56,7 @@ public class PlotManager : MonoBehaviour
 	void Harvest()
 	{
 		Debug.Log("Harvest");
+		farmManager.Transact(gamePlant.sellPrice);
 		isPlanted = false;
 		plantStage = 0;
 		UpdateStage();
@@ -64,6 +65,7 @@ public class PlotManager : MonoBehaviour
 
 	void Plant(GamePlant gamePlant)
 	{
+		if (!farmManager.Transact(-gamePlant.buyPrice)) return;
 		this.gamePlant = gamePlant;
 		Debug.Log("Plant");
 		isPlanted = true;
