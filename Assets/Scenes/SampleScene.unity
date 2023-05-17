@@ -440,7 +440,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851353997607918509, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
       propertyPath: m_Name
-      value: WaterButton (1)
+      value: FerterlizingButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 943062771}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTool
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FarmManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 0a9bf41a0c6929c41817cf8a8f82c1f8, type: 2}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: PlantingToolComponent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5851353998837101690, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
       propertyPath: m_text
@@ -925,7 +957,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851353997607918509, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
       propertyPath: m_Name
-      value: WaterButton (2)
+      value: PlottingButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 943062771}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTool
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FarmManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 10167c7e48423e64389d5af28472bd87, type: 2}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: PlantingToolComponent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5851353998837101690, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
       propertyPath: m_text
@@ -944,6 +1008,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5851353997607918508, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
   m_PrefabInstance: {fileID: 692105335}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &692105337 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+  m_PrefabInstance: {fileID: 692105335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &726903282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,8 +1310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba528b47afffb04d893a1b82ec59555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 120
-  isPlanting: 0
+  money: 100
   selectedPlant: {fileID: 0}
   buyActiveColor: {r: 0, g: 1, b: 0, a: 1}
   buyInactiveColor: {r: 1, g: 0, b: 0, a: 1}
@@ -1637,6 +1711,11 @@ MonoBehaviour:
   storeTitleTxt: {fileID: 657646414}
   storeMoneyTxt: {fileID: 1520436530}
   storeTitle: Plant Store
+  wateringBtn: {fileID: 2053214819}
+  ferterlizingBtn: {fileID: 1770456321}
+  plotingBtn: {fileID: 692105337}
+  selectedBtnSprite: {fileID: -1267679385, guid: c7ee9e014e7f52a4fbc7d6f15319edb4, type: 3}
+  btnSprite: {fileID: 1565534179, guid: c7ee9e014e7f52a4fbc7d6f15319edb4, type: 3}
 --- !u!1001 &1518159478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2095,6 +2174,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3214192012383182005, guid: 3d5dbbd23e6752e46a92b678386ba427, type: 3}
   m_PrefabInstance: {fileID: 1593091768}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1770456321 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+  m_PrefabInstance: {fileID: 509554211}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1817510950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2424,6 +2514,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 943062771}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTool
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FarmManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: c93edf2332b954343ada668f2ce4792c, type: 2}
+    - target: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: PlantingToolComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
 --- !u!224 &2053214818 stripped
@@ -2431,6 +2553,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5851353997607918508, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
   m_PrefabInstance: {fileID: 2053214817}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2053214819 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5851353997607918511, guid: ce06b43bc808ca24388130ed617d63d3, type: 3}
+  m_PrefabInstance: {fileID: 2053214817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2058604032
 GameObject:
   m_ObjectHideFlags: 0
